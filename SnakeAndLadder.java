@@ -11,7 +11,6 @@ public class SnakeAndLadder {
 		final int Snake = 2;
 		
 		
-		
 		int Starting_position = 0;
 		int Player_position = 0;
 		System.out.println("Starting position is :" + Starting_position);
