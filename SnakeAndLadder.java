@@ -9,11 +9,15 @@ public class SnakeAndLadder {
 		final int No_Play = 0;
 		final int Ladder = 1;
 		final int Snake = 2;
+		final int Starting_position = 0;
+		final int Win=100;
+	
 		
 		
-		int Starting_position = 0;
 		int Player_position = 0;
 		System.out.println("Starting position is :" + Starting_position);
+		
+		while(Player_position <= Win) {
 		
 		Random random = new Random();
    	    int	Rolling_Dice = random.nextInt(6)+1;
@@ -42,7 +46,9 @@ public class SnakeAndLadder {
    	    {
    	    	System.out.println(" 'Sorry' Somethis went Worng");
    	    	
-   	    }
+   	    } 
+	}
+		System.out.println("Position:--" +Player_position);
    	    	
 	}
 }
